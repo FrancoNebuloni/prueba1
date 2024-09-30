@@ -1,0 +1,7 @@
+ul li::marker {
+    color: blue;
+    list-style-type: square;
+}
+img {
+    opacity:0.5;
+}

@@ -1,0 +1,48 @@
+html {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#noticiaDelDía {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: x-large;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#NoticiaPrincipal {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+}
+
+.noticias {
+    text-align: justify;
+    font-size: large;
+    font-family: monospace;
+    text-decoration: underline;
+    font-family: Helvetica, sans-serif;
+}
+
+.párrafos {
+    text-align: justify;
+    font-size: medium;
+    font-family: Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+
+#Reportes {
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+    text-decoration: underline;
+    background-color: darkgray;
+}
+
+.autores {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Helvetica, sans-serif;
+    font-size: small;
+}

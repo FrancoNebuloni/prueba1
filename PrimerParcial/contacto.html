@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IMNA consultas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="títuloPrincipal">Escribinos sobre tu consulta</h1>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html" target="_self">Volver a página principal</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form>
+                <label for="nombre">Nombre</label><br>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="apellido">Apellido</label><br>
+                <input type="text" id="apellido" name="apellido"><br>
+                <label for="tel">Teléfono</label><br>
+                <input type="text" id="tel" name="tel"><br>
+                <label for="email">E-mail</label><br>
+                <input type="text" id="email" name="email">
+                <br>
+                <p><label for="consulta">Escriba su Consulta</label></p>
+                <textarea id="consulta" name="consulta" rows="12" cols="80"></textarea><br>
+                <input type="submit" value="enviar">
+            </form>
+            <br>
+            <h2 class="títuloPrincipal">¿Que servicio usa?</h2>
+            <form>
+                <input type="radio" id="mails" name="mails">
+                <label for="radio">Gmail</label><br>
+                <input type="radio" id="mails" name="mails">
+                <label for="radio">Outlook</label><br>
+                <input type="radio" id="mails" name="mails">
+                <label for="radio">Apple Mail</label><br>
+            </form>
+            <br>
+            <h2 class="títuloPrincipal">¿Que apps usa?</h2>
+            <form>
+                <input type="checkbox" id="apps" name="apps">
+                <label for="checkbox">Facebook</label><br>
+                <input type="checkbox" id="apps" name="apps">
+                <label for="checkbox">Twitter/X</label><br>
+                <input type="checkbox" id="apps" name="apps">
+                <label for="checkbox">Instagram</label><br>
+            </form>
+            <br>
+            <h2 class="títuloPrincipal">¿Que buscador utiliza?</h2>
+            <form>
+                <label for="buscador">Elija su buscador desde esta lista:</label>
+                <input list="buscadores" name="buscador" id="buscador">
+                <datalist id="buscadores">
+                    <option value="Google"></option>
+                    <option value="Firefox"></option>
+                    <option value="OperaGX"></option>
+                    <option value="Microsoft Edge"></option>
+                    <option value="Safari"></option>
+                </datalist>
+            </form>
+            <h2 class="títuloPrincipal">Cómo contactarnos</h2>
+            <p><strong>Email</strong>: IMNA@gmail.com</p>
+            <p><strong>Teléfono</strong>: 11-5433-2988</p>
+            <table border="1">
+                <tr>
+                    <th>Días de actividad</th>
+                    <th>Horas de actividad</th>
+                </tr>
+                <tr>
+                    <td>Lunes</td>
+                    <td>08:00 hasta 22:00</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>08:00 hasta 22:00</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>08:00 hasta 22:00</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>08:00 hasta 22:00</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>08:00 hasta 22:00</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>08:00 hasta 18:00</td>
+                </tr>
+            </table>
+            <br>
+            <div class="flexSpaceAround">
+                <a href="https://www.facebook.com/?locale=es_LA">
+                    <img src="https://static.wikia.nocookie.net/ipod/images/b/b3/Facebook_iOS_2019_icon_padded.png/revision/latest/scale-to-width-down/1200?cb=20221011161051"
+                    alt="facebook del instituto" title="Facebook de IMNA" height="40">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNDSc2kBojlcAsXp4YYp4MJQHHizDnPuvP7g&s"
+                    alt="instagram" title="Instagram de IMNA" height="40">
+                </a>
+                <a href="https://mail.google.com/mail/u/0/">
+                    <img src="https://xneelo.co.za/help-centre/wp-content/uploads/2016/12/gmail-logo-1.png" alt="Gmail" 
+                    title="Gmail de IMNA" height="40">
+                </a>
+            </div>
+        </main>
+        <footer>
+            <br>
+            <p id="autor">desarrollada por Nebuloni Franco, todos los derechos de autor son reservados por 
+                copyright 2024.</p>
+        </footer>
+    </body>
+</html>

@@ -14,7 +14,7 @@ html {
 #NoticiaPrincipal {
     text-align: center;
     font-family: Helvetica, sans-serif;
-    font-size: large;
+    font-size: larger;
 }
 
 .noticias {
@@ -45,4 +45,14 @@ html {
     text-decoration: underline;
     font-family: Helvetica, sans-serif;
     font-size: small;
+}
+
+#subtitulo {
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+}
+
+#imágen {
+    text-align: center;
 }
